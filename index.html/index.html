@@ -1,39 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Maria Paz Gonzales Leon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-papNMvO2O/3fbbUt4H3bWxx6H/fNo3CqZfvAwIaNF2pmCy8yJ7OQmUChMT05hRm6KXzB0D3clq6R6GjG6Y5uOg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <title>Maria Paz Gonzales Leon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    .hero-section {
+      background-color: #f3f3f3;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .hero-section a.linkedin-link {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 0.5rem;
+      color: #0A66C2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero-section a.linkedin-link:hover {
+      color: #004182;
+    }
+
+    .linkedin-icon {
+      margin-left: 0.4rem;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .companeros ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .companeros li {
+      margin-bottom: 0.5rem;
+    }
+
+    .companeros a {
+      color: #0A66C2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .companeros a:hover {
+      text-decoration: underline;
+    }
+
+    a.linkedin-inline {
+      color: #0A66C2;
+      margin-left: 0.3rem;
+    }
+
+    a.linkedin-inline:hover {
+      color: #004182;
+    }
+  </style>
 </head>
 <body>
-<nav class="navbar">
-    <div class="logo">mariapazgonzales</div>
-    <ul class="nav-links">
-        <li><a href="#inicio">INICIO</a></li>
-        <li><a href="#presentación">PRESENTACIÓN</a></li>
-        <li><a href="#contacto">contacto</a></li>
-        <li><a href="#datospersonales">datospersonales</a></li>
-    </ul>
-    <button class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-</nav>
-    
-<header id="inicio" class="hero-section">
-    <h1>En está página podrás enterarte más sobre Maria Paz Gonzales</h1>
-    <p>Descubre más aquí</p>
-    <a href="presentación" class="btn-primary">Descubrir más</a>
 
-    <main>
-        <section id="presentación" class="datos-personales">
-            <h2>Mi información</h2>
-            <div class="info">
-                <h3>presentación 1</h3>
-                <p>Hola, mi nombre es Maria Paz Gonzales Leon, soy estudiante de Administración de Negocios de la Universidad Católica San Pablo, ubicada en la ciudad de Arequipa. Llevo cursos como cálculo en una variable, estadística y probabilidades, costos y planeamiento presupuestal, análisis de datos con uno de los más importantes profesores, Ernesto Cuadros. Todos estos cursos los considero muy importantes para el desarrollo y formación como profesional y futura administradora de negocios. Quisiera especializarme en finanzas en el área de tesorería o contabilidad, para trabajar en un banco o caja, como BCP, Interbank, BBVA o Caja Arequipa.</p>
+  <header id="inicio" class="hero-section">
+    <h1>Maria Paz Gonzales</h1>
+    <h2>En está página podrás enterarte más sobre Maria Paz Gonzales</h2>
+    <p>
+      <a 
+        href="https://www.linkedin.com/in/maria-gonz%C3%A1les-95b857191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+        target="_blank"
+        class="linkedin-link"
+      >
+        Visita mi LinkedIn
+        <i class="fab fa-linkedin linkedin-icon"></i>
+      </a>
+    </p>
+  </header>
 
-    </main>
+  <main>
+    <section id="presentación" class="datos-personales">
+      <h2>Mi información</h2>
+      <div class="info">
+        <p>
+          Hola, mi nombre es Maria Paz Gonzales Leon, soy estudiante de Administración de Negocios de la Universidad Católica San Pablo, ubicada en la ciudad de Arequipa. Llevo cursos como cálculo en una variable, estadística y probabilidades, costos y planeamiento presupuestal, análisis de datos con uno de los más importantes profesores, 
+          Ernesto Cuadros 
+          <a 
+            href="https://www.linkedin.com/in/ecuadrosv?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+            target="_blank"
+            class="linkedin-inline"
+            title="LinkedIn de Ernesto Cuadros"
+          >
+            (LinkedIn <i class="fab fa-linkedin"></i>)
+          </a>.          
+          Todos estos cursos los considero muy importantes para el desarrollo y formación como profesional y futura administradora de negocios. Quisiera especializarme en finanzas en el área de tesorería o contabilidad, para trabajar en un banco o caja, como BCP, Interbank, BBVA o Caja Arequipa.
+        </p>
+      </div>
+    </section>
+
+    <section id="companeros" class="companeros">
+      <h2>Compañeros</h2>
+      <ul>
+        <li><a href="https://mariaquintog.github.io/" target="_blank">Maria Quinto</a></li>
+        <li><a href="https://jhony241.github.io/Jhon-Ronald-Quispe-Mendoza.github.io/" target="_blank">Jhon Ronald Quispe Mendoza</a></li>
+        <li><a href="https://fabianrodrigocayocalcina.github.io/" target="_blank">Fabian Rodrigo Cayo Calcina</a></li>
+        <li><a href="https://naranciaovo.github.io/TAREA-P.C/" target="_blank">Tarea - P.C.</a></li>
+        <li><a href="https://christopher110011.github.io/mipagina/" target="_blank">Christopher</a></li>
+      </ul>
+    </section>
+  </main>
+
 </body>
 </html>
